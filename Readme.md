@@ -28,4 +28,23 @@ How to run: ./scripts/word_frequency.sh (Requires entering a filename and a word
 
 ---------------------------------------------------------------------------------------
 Yuval's scripts:
+1. backup_folder.sh (Folder Backup):
+Description: Creates a compressed .tar.gz backup of a given folder.
+How to run: ./scripts/backup_folder.sh <folder_path> (Requires a folder path as argument).
+
+2. add_prefix.sh (Add Prefix to Files):
+Description: Renames every .txt file in a folder by adding a chosen prefix to its name.
+How to run: ./scripts/add_prefix.sh <folder_path> <prefix> (Requires a folder path and a prefix as arguments).
+
+3. gen_password.sh (Random Password Generator):
+Description: Generates a random 10-character password with at least one uppercase letter, lowercase letter, digit, and symbol.
+How to run: ./scripts/gen_password.sh (No input required).
+
+4. check_urls.sh (URL Reachability Checker):
+Description: Goes over a list of URLs and prints whether each one is reachable, using curl with a timeout.
+How to run: ./scripts/check_urls.sh (No input required, URLs are listed inside the script).
+
+5. count_extensions.sh (Count Files By Extension):
+Description: Counts the files in a folder grouped by their extension and prints each extension with its count.
+How to run: ./scripts/count_extensions.sh <folder_path> (Requires a folder path as argument).
 
